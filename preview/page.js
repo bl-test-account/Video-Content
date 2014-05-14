@@ -13,5 +13,5 @@ to each update of the app.
 */
 var savedContent = BL.getStaticContent(APP.appId);
 var src = savedContent.video_url[0];
-$('video source')[0].src = src; //('src', src)
+//$('video source')[0].src = src; //('src', src)
 //alert($('video source')[0].src)
